@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+h1, p{
+    text-align: center;
+}
+p{
+    font-size: 15px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 36px;
+}
+#main{
+    font-family: sans-serif;
+    margin-top: 30px;
+    opacity: 0.6;
+}
+span{
+    background-color: black;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+#toggle{
+    margin-top: 40px;
+}
+#maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    margin-top: 45px;
+}
+#maingrid>div{
+    width: 100%;
+}
+img{
+    margin-top: -3.5px;
+}
